@@ -1,0 +1,137 @@
+@import "bootstrap";
+
+$black: #000000;
+$white: #fcfcfc;
+$red: #931F1D;
+$other-red: #DA251D;
+$cream: #ECE2D0;
+$grey: #777777;
+$light-grey: #9D9F9E;
+$blue: #004890;
+$strong-blue: #010066;
+$dark-blue: #031926;
+$meloon: #CC8B86;
+$gold: #DB8B02;
+$teal: #009688;
+/*Texto*/
+.bold{
+	font-weight: bold;
+}
+/* -----------------------------------Colores */
+.black{
+	background-color: $black;
+}
+.black-text{
+	color: $black;
+}
+.white{
+	background-color: $white;
+}
+.white-text{
+	color: white;
+}
+.red{
+	background-color: $red;
+}
+.red-text{
+	color: $red;
+}
+.other-red{
+	background-color: $other-red;
+}
+.other-red-text{
+	color: other-red;
+}
+.cream{
+	background-color: $cream;
+}
+.cream-text{
+	color: $cream;
+}
+.grey{
+	background-color: $grey;
+}
+.grey-text{
+	color: grey;
+}
+.light-grey{
+	background-color: $light-grey;
+}
+.blue{
+	background-color: $blue;
+}
+.blue-text{
+	color: $blue;
+}
+.strong-blue{
+	background-color: $strong-blue;
+}
+.strong-blue-text{
+	color: $strong-blue;
+}
+.dark-blue{
+	background-color: $dark-blue;
+}
+.meloon{
+	background-color: $meloon;
+}
+.gold{
+	background-color: $gold;
+}
+.teal{
+	background-color: $teal;
+}
+.teal-text{
+	color: $teal;
+}
+/* -------------------------------Padings*/
+
+.big-padding{
+	padding: 2em;
+}
+.no-padding{
+	padding: 0;
+}
+.large-padding{
+	padding: 5px 10px;
+}
+/*-------------------------------Margins*/
+.top-space{
+	margin-top: 1em;
+}
+.bottom-space{
+	margin-bottom: 1em;
+}
+/* ------------------------------Alineamiento */
+.no-float{
+	float: none !important;
+}
+.inline-block{
+	float: none !important;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+.absolute{
+	position: absolute;
+}
+
+/* ---------------------------------Tamaños */
+.small{
+	font-size: 12px;
+}
+.normal{
+	font-size: 1.2em;
+}
+.medium{
+	font-size: 1.5em;
+}
+.big{
+	font-size: 3em;
+}
+.bigger{
+	font-size: 4em;
+}
+.ultra-big{
+	font-size: 7em;
+}

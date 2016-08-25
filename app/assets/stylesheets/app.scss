@@ -1,0 +1,94 @@
+$black: #000000;
+$white: #fcfcfc;
+$red: #931F1D;
+$other-red: #DA251D;
+$cream: #ECE2D0;
+$grey: #777777;
+$light-grey: #9D9F9E;
+$blue: #004890;
+$strong-blue: #010066;
+$dark-blue: #031926;
+$meloon: #CC8B86;
+$gold: #DB8B02;
+/* Colores */
+.black{
+	background-color: $black;
+}
+.black-text{
+	color: $black;
+}
+.white{
+	background-color: $white;
+}
+.white-text{
+	color: white;
+}
+.red{
+	background-color: $red;
+}
+.red-text{
+	color: $red;
+}
+.other-red{
+	background-color: $other-red;
+}
+.other-red-text{
+	color: other-red;
+}
+.cream{
+	background-color: $cream;
+}
+.cream-text{
+	color: $cream;
+}
+.grey{
+	background-color: $grey;
+}
+.grey-text{
+	color: grey;
+}
+.light-grey{
+	background-color: $light-grey;
+}
+.blue{
+	background-color: $blue;
+}
+.strong-blue{
+	background-color: $strong-blue;
+}
+.dark-blue{
+	background-colore: $dark-blue;
+}
+.meloon{
+	background-color: $meloon;
+}
+.gold{
+	background-color: $gold;
+}
+/*Padings*/
+
+.big-padding{
+	padding: 2em;
+}
+.no-padding{
+	padding: 0;
+}
+
+/* Alineamiento */
+.no-float{
+	float: none !important;
+}
+.inline-block{
+	float: none !important;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Tamaños */
+.ultra-big{
+	font-size: 7em;
+}
+
+.img{
+	max-width:100% !important;
+}
